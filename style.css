@@ -1,0 +1,45 @@
+.initial-letter {
+  float: left;
+  color: darkred;
+  border: 3px ridge darkgoldenrod;
+  padding: 16px;
+  background-color: gold;
+  margin: 8px;
+}
+
+blockquote {
+  background-color: rgba(0, 0, 0, 0.12);
+  padding: 8px;
+  position: relative;
+}
+
+blockquote:before,
+blockquote:after {
+  content: '"';
+  vertical-align: middle;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+blockquote:before {
+  font-size: 20px;
+  left: 5px;
+
+  top: -4px;
+}
+blockquote:after {
+  right: 5px;
+  bottom: 2px;
+  font-size: 20px;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+a:visited {
+  color: purple;
+}
